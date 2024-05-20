@@ -39,8 +39,8 @@
 ~~~~
 
 ### Experimental settings
-
-|Folder name|Model|Features|Notes|Accuracy|
+We conducted a total of five experiments. Each experiment is organized into separate directories.
+|Directory name|Model|Features|Notes|Accuracy|
 |:---|:---|:---|:---|:---:|
 |Model_ver_1|Resnet18|Spectogram + Mel_spectogram + Chromagram|Custom augmentation (random rectangles)|90.91|
 |Model_ver_2|Resnet18|Spectogram + Mel_spectogram + Chromagram|Hyperparameter tuning|88.75|
@@ -56,9 +56,10 @@ Since the process of extracting features takes a long time, we extract them in a
 make_feature_from_audio.py
 ~~~~
 
+The following is performed independently for each directory (i.e., /Model_ver_k, k ranges from 1 to 5).
+
 ### Training
 By executing the script provided below, you can easily train the model.
-
 If you want to try other options, please refer to `options.py`.
 
 ~~~~
@@ -68,10 +69,17 @@ python main.py
 ### Testing
 The pre-trained model can be found [here](https://drive.google.com/file/d/1ybT3-Syq_BeLZRaX2ptI-XmgVuadeJZV/view?usp=sharing).
 You can test the model by running the command below.
-* Place the pre-trained model in the `models` directory.
+* Place the pre-trained model in the `Model_ver_k` directory.
 
 ~~~~
-python main_eval.py
+python main_test.py
+~~~~
+
+### Ensemble
+We ensemble the five experiments conducted above. Place each experiment's result CSVs in the 'ensemble_csv' directory and execute the following command.
+
+~~~~
+python ensemble_from_csv.py
 ~~~~
 
 ## References
