@@ -56,7 +56,7 @@ Since the process of extracting features takes a long time, we extract them in a
 python make_feature_from_audio.py
 ~~~~
 
-The following is performed independently for each directory (e.g., "Model_ver_1").
+The following is performed independently for each directory (e.g., `Model_ver_1`).
 
 ### Training
 By executing the script provided below, you can easily train the model.
@@ -82,7 +82,7 @@ We ensemble the five experiments conducted above. Place each experiment's result
 python ensemble_from_csv.py
 ~~~~
 
-As a final result, the file "ensemble.csv" will be created in the "ensemble_csv" directory.
+As a final result, the file "ensemble.csv" will be created in the `ensemble_csv` directory.
 
 ## References
 We referenced the repo below for the code.   
