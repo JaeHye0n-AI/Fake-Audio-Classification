@@ -82,6 +82,8 @@ We ensemble the five experiments conducted above. Place each experiment's result
 python ensemble_from_csv.py
 ~~~~
 
+As a final result, the file 'ensemble.csv' will be created in the 'ensemble_csv' directory.
+
 ## References
 We referenced the repo below for the code.   
 Learning Action Completeness from Points for Weakly-supervised Temporal Action Localization (ICCV 2021) [[paper](https://arxiv.org/abs/2108.05029)] [[code](https://github.com/Pilhyeon/Learning-Action-Completeness-from-Points)]   
