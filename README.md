@@ -69,7 +69,7 @@ python main.py
 ### Testing
 The pre-trained model can be found [here](https://drive.google.com/file/d/1ybT3-Syq_BeLZRaX2ptI-XmgVuadeJZV/view?usp=sharing).
 You can test the model by running the command below.
-* Place the pre-trained model in the `Model_ver_k` directory.
+* Place the pre-trained model in the `Model_ver_1~5` directory.
 
 ~~~~
 python main_test.py
