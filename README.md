@@ -53,7 +53,7 @@ We conducted a total of five experiments. Each experiment is organized into sepa
 We use three features extracted from audio (spectrogram, mel spectrogram, and chromagram).
 Since the process of extracting features takes a long time, we extract them in advance, save them as pkl files, and then use them.
 ~~~~
-make_feature_from_audio.py
+python make_feature_from_audio.py
 ~~~~
 
 The following is performed independently for each directory (e.g., "Model_ver_1").
@@ -86,4 +86,4 @@ As a final result, the file "ensemble.csv" will be created in the "ensemble_csv"
 
 ## References
 We referenced the repo below for the code.   
-Learning Action Completeness from Points for Weakly-supervised Temporal Action Localization (ICCV 2021) [[paper](https://arxiv.org/abs/2108.05029)] [[code](https://github.com/Pilhyeon/Learning-Action-Completeness-from-Points)]   
+Tent: Fully Test-Time Adaptation by Entropy Minimization [[paper](https://openreview.net/forum?id=uXl3bZLkr3c)] [[code](https://github.com/DequanWang/tent)]   
