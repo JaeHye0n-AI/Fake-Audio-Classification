@@ -69,7 +69,7 @@ python main.py
 ~~~~
 
 ### Testing
-The pre-trained model can be found [here](https://drive.google.com/file/d/1ybT3-Syq_BeLZRaX2ptI-XmgVuadeJZV/view?usp=sharing).
+The pre-trained model can be found [here](https://drive.google.com/file/d/1tLa3NnLTFmUnd0mR9pBaHW6SBpGDCkjs/view?usp=sharing).
 * Place the pre-trained model as shown below.
 
 ~~~~
