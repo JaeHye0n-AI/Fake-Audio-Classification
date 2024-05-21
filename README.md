@@ -2,7 +2,7 @@
 
 주어진 오디오가 실제 사람의 음성(real)인지 가짜 음성(fake)인지 판별하는 AI 모델 개발  
 
-**Private score 3rd**
+**[Private score 3rd]**
 
 ### Environment
 * Python == 3.8.0
