@@ -1,6 +1,7 @@
 # 소중한 AI 경진대회
 
 주어진 오디오가 실제 사람의 음성(real)인지 가짜 음성(fake)인지 판별하는 AI 모델 개발
+**Private score 3rd**
 
 ### Environment
 * Python == 3.8.0
@@ -70,7 +71,8 @@ python main.py
 The pre-trained model can be found [here](https://drive.google.com/file/d/1ybT3-Syq_BeLZRaX2ptI-XmgVuadeJZV/view?usp=sharing).
 You can test the model by running the command below.
 * Place the pre-trained model in the `Model_ver_1~5` directory.
-* ~~~~
+
+~~~~
 ├── Model_ver_1
    ├── outputs
        ├── model_ver_1
