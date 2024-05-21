@@ -97,7 +97,12 @@ Place each experiment's result CSVs in the `ensemble_csv` directory and execute 
 python ensemble_from_csv.py
 ~~~~
 
-As a final result, the file `ensemble.csv` will be created in the `ensemble_csv` directory.   
+As a final result, the file `ensemble.csv` will be created in the `ensemble_csv` directory.
+
+| <center>Pubilc Accuracy</center> | <center>Private Accuracy</center> |
+|:------|:-------|
+|91.66|93.37|
+
 
 
 ## Development Environment
