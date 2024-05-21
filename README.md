@@ -51,7 +51,7 @@ We conducted a total of five experiments. Each experiment is organized into sepa
 
 ## Usage
 ### feature extract
-We use three features extracted from audio (spectrogram, mel spectrogram, and chromagram).   
+We use three features extracted from audio (spectrogram, mel_spectrogram, and chromagram).   
 Since the process of extracting features takes a long time, we extract them in advance, save them as pkl files, and then use them.
 ~~~~
 python make_feature_from_audio.py
