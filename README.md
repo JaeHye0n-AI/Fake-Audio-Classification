@@ -97,7 +97,17 @@ Place each experiment's result CSVs in the `ensemble_csv` directory and execute 
 python ensemble_from_csv.py
 ~~~~
 
-As a final result, the file `ensemble.csv` will be created in the `ensemble_csv` directory.
+As a final result, the file `ensemble.csv` will be created in the `ensemble_csv` directory.   
+
+
+## Development Environment
+~~~~
+OS: Ubuntu 20.04.6 LTS
+CPU: Intel i9-7920X
+RAM: 128 GB
+GPU: NVIDIA TITAN Xp 4 way
+~~~~
+
 
 ## References
 We referenced the repo below for the code.   
