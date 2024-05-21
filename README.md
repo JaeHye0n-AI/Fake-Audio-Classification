@@ -100,7 +100,7 @@ python ensemble_from_csv.py
 As a final result, the file `ensemble.csv` will be created in the `ensemble_csv` directory.
 
 | <center>Pubilc Accuracy</center> | <center>Private Accuracy</center> |
-|:------|:-------|
+|:------:|:-------:|
 |91.66|93.37|
 
 
