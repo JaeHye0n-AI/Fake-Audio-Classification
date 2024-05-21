@@ -70,6 +70,17 @@ python main.py
 The pre-trained model can be found [here](https://drive.google.com/file/d/1ybT3-Syq_BeLZRaX2ptI-XmgVuadeJZV/view?usp=sharing).
 You can test the model by running the command below.
 * Place the pre-trained model in the `Model_ver_1~5` directory.
+* ~~~~
+├── Model_ver_1
+   ├── outputs
+       ├── model_ver_1
+           └── best_model_ver_1.pt
+├── Model_ver_2
+   ├── outputs
+       ├── model_ver_2
+           └── best_model_ver_2.pt
+└── ...
+~~~~
 
 ~~~~
 python main_test.py
