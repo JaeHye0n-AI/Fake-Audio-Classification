@@ -41,7 +41,7 @@
 
 ### Experimental settings
 We conducted a total of five experiments. Each experiment is organized into separate directories.
-|<center>Directory</center>|<center>Model|<center>Features</center>|<center>Notes</center>|<center>Accuracy</center>|
+| <center>Directory</center> | <center>Model | <center>Features</center> | <center>Notes</center> | <center>Accuracy</center> |
 |:---|:---|:---|:---|:---:|
 |Model_ver_1|Resnet18|Spectogram + Mel_spectogram + Chromagram|Custom augmentation   (random rectangles)|90.91|
 |Model_ver_2|Resnet18|Spectogram + Mel_spectogram + Chromagram|Hyperparameter tuning|88.75|
