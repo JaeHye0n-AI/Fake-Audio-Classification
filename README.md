@@ -90,13 +90,13 @@ python main_test.py
 ~~~~
 
 ### Ensemble
-We ensemble the five experiments conducted above. Place each experiment's result CSVs in the `ensemble_from_csv` directory and execute the following command.
+We ensemble the five experiments conducted above. Place each experiment's result CSVs in the `ensemble_csv` directory and execute the following command.
 
 ~~~~
 python ensemble_from_csv.py
 ~~~~
 
-As a final result, the file `ensemble.csv` will be created in the `ensemble_from_csv` directory.
+As a final result, the file `ensemble.csv` will be created in the `ensemble_csv` directory.
 
 ## References
 We referenced the repo below for the code.   
