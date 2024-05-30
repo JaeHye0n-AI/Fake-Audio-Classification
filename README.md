@@ -46,7 +46,7 @@ We conducted a total of five experiments. Each experiment is organized into sepa
 |Model_ver_1|Resnet18|Spectogram + Mel_spectogram + Chromagram|Hyperparameter tuning|90.75|
 |Model_ver_2|Resnet18|Spectogram + Mel_spectogram + Chromagram|Hyperparameter tuning|89.41|
 |Model_ver_3|Resnet18|Spectogram + Mel_spectogram + Chromagram|Test time adaptation (Tent)|88.58|
-|Model_ver_4|Resnet18|Spectogram|Test time adaptation (Tent)|88.6|
+|Model_ver_4|Resnet18|Spectogram|Test time adaptation (Tent)|88.66|
 
 ## Usage
 ### feature extract
