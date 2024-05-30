@@ -1,9 +1,0 @@
-Configurtaions:
-- batch_size: 8
-- num_iters: 5
-- num_workers: 4
-- save_output_path: ./outputs
-- seed: 1000
-- submission_path: ../dataset/submission.csv
-- test_data_path: ../dataset/test
-- train_data_path: ../dataset/train
