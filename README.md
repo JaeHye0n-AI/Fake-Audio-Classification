@@ -43,11 +43,10 @@
 We conducted a total of five experiments. Each experiment is organized into separate directories.
 | <center>Directory</center> | <center>Model | <center>Features</center> | <center>Notes</center> | <center>Accuracy</center> |
 |:------|:-------|:-------|:-------|:-------:|
-|Model_ver_1|Resnet18|Spectogram + Mel_spectogram + Chromagram|Custom augmentation    (random rectangles)|90.91|
-|Model_ver_2|Resnet18|Spectogram + Mel_spectogram + Chromagram|Hyperparameter tuning|88.75|
-|Model_ver_3|Resnet18|Spectogram + Mel_spectogram + Chromagram|Hyperparameter tuning|90.41|
-|Model_ver_4|Resnet18|Spectogram + Mel_spectogram + Chromagram|Test time adaptation (Tent)|88.41|
-|Model_ver_5|Resnet18|Spectogram|Test time adaptation (Tent)|88.16|
+|Model_ver_1|Resnet18|Spectogram + Mel_spectogram + Chromagram|Hyperparameter tuning|90.75|
+|Model_ver_2|Resnet18|Spectogram + Mel_spectogram + Chromagram|Hyperparameter tuning|89.41|
+|Model_ver_3|Resnet18|Spectogram + Mel_spectogram + Chromagram|Test time adaptation (Tent)|88.58|
+|Model_ver_4|Resnet18|Spectogram|Test time adaptation (Tent)|88.6|
 
 ## Usage
 ### feature extract
@@ -101,7 +100,7 @@ As a final result, the file `ensemble.csv` will be created in the `ensemble_csv`
 
 | <center>Pubilc Accuracy</center> | <center>Private Accuracy</center> |
 |:------:|:-------:|
-|91.66|93.37|
+|91.08|93.75|
 
 
 
